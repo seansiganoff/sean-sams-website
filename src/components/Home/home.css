@@ -1,0 +1,165 @@
+
+
+
+.home-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.home-background-audi {
+    width: 100%;
+    height: 115vh;
+    object-fit: cover;
+    filter: brightness(100%);
+    box-shadow: 0px 0px 45px 2px rgba(0, 0, 0, 0.482);
+    
+}
+
+.home-text-top-left {
+  position: absolute;
+  top: 25vh;
+  left: 5%;
+  width: 50%;
+  font-size: 55px;
+  color: whitesmoke;
+  text-align: center;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.seans-logo {
+    width: 50%;
+    max-width: 600px;
+}
+
+.home-locations-bottom {
+  position: absolute;
+  bottom: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+  left: 5%;
+  color: rgb(0, 0, 0);
+  background-color: rgba(42, 125, 6, 0.87);
+  padding: 1rem 1.5rem;
+  border-radius: 80px;
+  box-shadow: 0px 0px 45px 2px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.home-p {
+    color: rgb(8, 205, 25);
+    font-weight: 500;
+    box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.253);
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.669);
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+.google-map {
+    width: 100%;
+    height: 60vh;
+}
+
+
+.contacts {
+    color: black;
+}
+
+@media only screen and (max-width: 1600px) { 
+    .home-text-top-left {
+        font-size: xx-large
+    }
+
+    .home-p {
+        font-size: medium;
+    }
+
+    .home-locations-bottom {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 1200px) { 
+    .seans-logo {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) { 
+    
+    .home-text-top-left {
+        font-size: xx-large;
+    }
+    
+    .home-p {
+        width: 85%;
+    }
+    
+    
+    h1 {
+        font-size: large;
+        margin-bottom: 1rem;
+    }
+    .vehicle-icons-inner-div-bottom {
+        margin: 1rem 0;
+    }
+    
+}
+
+
+@media only screen and (max-width: 900px) {
+    
+    .home-text-top-left {
+      
+        font-size: large;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .company-logo {
+        width: 100%;
+    }
+    .locations {
+        font-size: medium;
+    }
+    .home-text-top-left {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    
+    .home-p {
+        margin: 0 auto;
+    }
+    .home-background-audi {
+        filter: brightness(60%);
+    }
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    
+    h1 {
+        font-size: small;
+        padding: 1rem 10px;
+    }
+    .home-text-top-left {
+        top: 8rem;
+        font-size: medium;
+    }
+    
+}
