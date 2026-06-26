@@ -9,14 +9,14 @@
 }
 
 .google-reviews-container {
-    padding: 3rem 0;
+    padding: 3rem 10px;
 }
 
 .google-reviews {
     display: flex;
     justify-content: space-around;
     align-items: top;
-    padding: 3rem 1rem;
+    padding: 3rem 0;
     width: 80%;
     min-height: 10vh;
     margin: 0 auto;
@@ -47,7 +47,6 @@
     border-radius: 30px;
     min-width: 30%;
 }
-
 
 a:visited, button {
     border: none;

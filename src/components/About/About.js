@@ -15,7 +15,7 @@ const About = () => {
                 <p>
                     Welcome to Collision Kings Auto Body Of McKinney. Your destination for professional auto body repairs. <br />
                     We are family owned and operated, and we have more than 30 years of experiance in the industry. <br /><br />
-                    We offer deductible assistance: Up to $1000.<br /> We specializing in PDR, collision repair, paint matching and hail damage. <br />
+                    We offer deductible assistance: Up to $1000.<br /> We specialize in PDR, collision repair, paint matching and hail damage. <br />
                     We work with all insurance companies and personaly handle all claims, so you don't have to.
                      <br /><br />
                      Our goal is to provide our costumers with the best costumer service, and deliver professional results in a timely manner!

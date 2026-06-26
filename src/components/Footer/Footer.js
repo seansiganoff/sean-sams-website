@@ -12,7 +12,7 @@ const Footer = () => {
                    </div>
                 <div className="contact-us">
                     <h3 className='theme-color'>HOURS</h3>
-                    <p>Monday - Friday: 8AM - 5PM.<br />Saturday: 10AM - 4PM.<br />Sunday: Closed.</p>
+                    <p>Monday - Friday: 9AM - 6PM.<br />Saturday: 10AM - 4PM.<br />Sunday: Closed.</p>
                 </div>
                 <div className="contact-us">
                     <h3 className='theme-color'>ADDRESS</h3>
