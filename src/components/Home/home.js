@@ -27,9 +27,11 @@ const Home = () => {
           <img className='home-background-audi' src={require('../../images/audi.jpg')}  alt='Audi background' />
           <div className='home-text-top-left'>
               <img className='seans-logo' src={require('../../images/seans-logo.png')} alt='company logo'/><br /><br />
-            <p className='home-p'>Professional Results.<br /> Reasonable Prices!</p>
+            <p className='home-p'>Professional Results.<br /> Reasonable Prices!</p><br />
+            <p className="home-locations-bottom"><b style={{color: 'white'}}>ADDRESS: 418 Power House Dr, McKinney, TX 75071.</b></p>
+
           </div>
-          <div className="home-locations-bottom"><b style={{color: 'white'}}>Address: 418 Power House Dr, McKinney, TX 75071.</b></div>
+          
         </div>
 
         {<About />}
