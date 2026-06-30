@@ -241,6 +241,9 @@
     .about {
         padding: 0px 22px;
     }
+    .about-us-text-container {
+        line-height: 21px;
+    }
 }
 
 
